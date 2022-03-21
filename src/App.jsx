@@ -6,8 +6,7 @@ import Card from './components/Card'
 import EditForm from './components/EditForm'
 
 function App() {
-  const date = new Date()
-  const year = date.getFullYear()
+  const year = new Date().getFullYear()
 
   const [eventList, setEventList] = useState([
     { eventName: "Hari Laut dan Samudera Nasional", date: `${year}-01-15` },
